@@ -13,7 +13,7 @@ const Gallery = () => {
             <div className={style.top}>
                 <img src={LogoBrown} className={style.logoBrown} alt="logo-brown-j&ylogo" />
                 <h2>Photo Gallery</h2>
-                <hr className='hr' />
+                <hr className={style.hrTop} />
                 <p className={style.parrafo}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
             </div>
             <div className={style.gallery}>

@@ -1,3 +1,12 @@
+/****  ****/
+
+.hrTop {
+    width: 150px;
+    border: none;
+    height: 1px;
+    background-color: var(--primary_color);
+}
+
 /****************** HEADER ******************/
 
 .container {
@@ -105,11 +114,19 @@
     gap: 20px;
 }
 
+.links > p {
+    margin: 0;
+}
+
 .linkStyle {
     color: var(--primary_color);
     text-decoration: none;
     font-family: var(--secundary-font);
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.linkStyle:hover {
+    color: #938470;
 }
 
 /****************** FOTO BODA ******************/
@@ -243,19 +260,14 @@
 .venueContainer {
     margin-top: 90px;
     display: flex;
-    height: 800px;
+    height: 700px;
 }
 
 .venueLeft{
     display: flex;
     flex-direction: column;
     background-color: var(--primary_color);
-    width: 60%;
-    padding: 80px;
-}
-
-.venueRight{
-    width: 40%;
+    padding: 100px 80px;
 }
 
 .titleH2 {
@@ -266,9 +278,9 @@
 
 .whiteHr {
     height: 1px;
+    width: 150px;
     background-color: #fff;
-    margin: 0px 0px 30px 0px;
-    padding: 0px;
+    margin-bottom: 40px;
 }
 
 .parrafo2 {
@@ -495,14 +507,13 @@
         text-align: center;
         height: 60px;
     }
-    .venueContainer {
-        flex-direction: column;
+    .venueLeft {
+        padding: 40px;
     }
-    .venueContainer > div {
-        width: 100%;
-        padding: 0;
+    .venueLeft > p {
+        font-size: 15px;
     }
-    .venueRigth > img {
+    .venueRigth {
         display: none;
     }
     .top {
@@ -587,14 +598,13 @@
         text-align: center;
         height: 60px;
     }
-    .venueContainer {
-        flex-direction: column;
+    .venueLeft {
+        padding: 40px;
     }
-    .venueContainer > div {
-        width: 100%;
-        padding: 70px 40px ;
+    .venueLeft > p {
+        font-size: 15px;
     }
-    .venueRigth > img {
+    .venueRigth {
         display: none;
     }
     .top {

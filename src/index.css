@@ -40,10 +40,3 @@ button:hover {
     background-color: var(--primary_color);
     color: white;
 }
-
-hr {
-    width: 150px;
-    border: none;
-    height: 1px;
-    background-color: var(--primary_color);
-}

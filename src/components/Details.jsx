@@ -9,7 +9,7 @@ const Details = () => {
             <div className={style.detailLeft}>
                 <img src={LogoBrown} alt="logo-brown-j&y" style={{width: "55px"}} />
                 <h2 className={style.titleDetail}>Fine Details</h2>
-                <hr style={{ margin: "0"}} />
+                <hr style={{ margin: "0", width: "150px"}} />
                 <p className={style.parrafo4}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 
                 <div className={style.items}>
