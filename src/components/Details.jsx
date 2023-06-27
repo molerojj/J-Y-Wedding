@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Details = () => {
     return (
-        <div id="venue" className={style.detailsConteiner}>
+        <div id="details" className={style.detailsConteiner}>
             <div className={style.detailLeft}>
                 <img src={LogoBrown} alt="logo-brown-j&y" style={{width: "55px"}} />
                 <h2 className={style.titleDetail}>Fine Details</h2>

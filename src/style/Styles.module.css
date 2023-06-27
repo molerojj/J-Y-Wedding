@@ -69,6 +69,11 @@
     font-size: 20px;
 }
 
+.menu:focus, .menu:hover, .menu:active  {
+    color: var(--gray-color);
+}
+
+
 /****************** INVITE ******************/
 
 .invite {
