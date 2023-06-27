@@ -391,7 +391,7 @@
 
 /****************** DETAILS ******************/
 
-.detailsConteiner {
+.detailsContainer {
     display: flex;
 }
 
@@ -531,7 +531,7 @@
     .togetherContainer {
         margin-top: 390px;
     }
-    .detailsConteiner {
+    .detailsContainer {
         flex-direction: column;
     }
     .detailLeft {
@@ -623,7 +623,7 @@
     .togetherContainer {
         margin-top: 390px;
     }
-    .detailsConteiner {
+    .detailsContainer {
         flex-direction: column;
     }
     .detailLeft {
