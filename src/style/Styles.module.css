@@ -293,6 +293,12 @@
     margin-bottom: 80px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .photo {
     width: 230px;
     height: 230px;
