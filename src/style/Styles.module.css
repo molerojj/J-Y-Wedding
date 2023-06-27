@@ -1,0 +1,441 @@
+/****************** HEADER ******************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px 100px 0px;
+    background-image: url(../assets/img/bg-header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    padding: 0;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 70px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-shadow: 5px 5px 25px black;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    font-weight:300;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 9px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/****************** NAVBAR ******************/
+
+.logo {
+    width: 100px;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--primary_color);
+}
+
+.Navbar > ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu {
+    font-family: var(--secundary-font);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/****************** INVITE ******************/
+
+.invite {
+    margin-top: 90px;
+    margin: 90px 100px 0px;
+    text-align: center;
+}
+
+.invite > h2 {
+    font-size: 32px;
+    font-family: var(--secundary-font);
+    font-weight: 400;
+}
+
+.resalt {
+    font-size: 32px;
+    font-family: var(--secundary-font);
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.links {
+    margin-top: 40px;
+    padding-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linkStyle {
+    color: var(--primary_color);
+    text-decoration: none;
+    font-family: var(--secundary-font);
+    font-weight: 600;
+}
+
+/****************** FOTO BODA ******************/
+
+.fotoBoda1 {
+    width: 100%;
+    height: 653px;
+}
+
+/****************** TIMING ******************/
+
+.timingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBrown {
+    width: 75px;
+    margin-bottom: 20px;
+}
+
+.top {
+    text-align: center;
+    margin: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top > h2 {
+    font-size: 40px;
+    font-family: var(--secundary-font);
+}
+
+.parrafo {
+    margin: 0px 150px;
+    line-height: 30px;
+    padding-top: 40px;
+    color: var(--text-color);
+    font-size: 19px;
+}
+
+.timingData {
+    display: flex;
+    gap: 10px;
+}
+
+.timingEvent {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.timingCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconRings {
+    color: var(--primary_color);
+    font-size: 80px;
+}
+
+.event {
+    width: 325;
+    height: 225px;
+}
+
+.timer {
+    padding: 15px 0;
+    text-align: center;
+    width: 325;
+    height: 70px;
+    box-shadow:
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.055),
+    100px 100px 80px rgba(0, 0, 0, 0.11);
+}
+
+.timer > p {
+    color: var(--primary_color);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hrVertical {
+    width: 2px;
+    height: 700px !important;
+    color: var(--primary_color) !important;
+    background-color: var(--primary_color);
+}
+
+.date {
+    margin-top: 20px;
+    background-color: var(--primary_color);
+}
+
+.date > p {
+    color: #fff;
+    font-family: var(--secundary-font);
+    padding: 5px 27px;
+    margin: 0;
+    font-size: 19px;
+}
+
+.triangle {
+    font-size: 25px;
+    rotate: 90deg;
+    color: var(--primary_color);
+    position: relative;
+    bottom: 21%;
+    left: 100%;
+}
+
+.triangle2 {
+    font-size: 25px;
+    rotate: 270deg;
+    color: var(--primary_color);
+    position: relative;
+    bottom: 21%;
+    right: 9%;
+}
+
+/****************** VENUE ******************/
+
+.venueContainer{
+    margin-top: 90px;
+    display: flex;
+    height: 800px;
+}
+
+.venueLeft{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary_color);
+    width: 60%;
+    padding: 80px;
+}
+
+.venueRight{
+    width: 40%;
+}
+
+.titleH2 {
+    color: #fff;
+    font-family: var(--secundary-font);
+    font-size: 40px;
+}
+
+.whiteHr {
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+}
+
+.parrafo2 {
+    line-height: 35px;
+    color: #fff;
+    font-weight: 300;
+    font-family: var(--secundary-font);
+    font-size: 18px;
+}
+
+/****************** LOVE STORY ******************/
+
+.cards {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 60px;
+    width: 75%;
+    margin-bottom: 80px;
+}
+
+.photo {
+    width: 230px;
+    height: 230px;
+    border-radius: 500px;
+}
+
+.heart {
+    font-size: 30px;
+    rotate: 330deg;
+    color: red;
+}
+
+.titleH3 {
+    font-family: var(--secundary-font);
+    font-size: 26px;
+}
+
+.parrafos3 {
+    line-height: 35px;
+    color: var(--text-color);
+    font-size: 19px;
+}
+
+/****************** GALLERY ******************/
+
+.gallery {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+/****************** NOVIOS ******************/
+
+.noviosContainer {
+    margin-top: 90px;
+    height: 680px;
+    display: flex;
+}
+
+.novio, .novia {
+    background-image: url(../assets/img/bg-novios-iz.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.novia {
+    background-image: url(../assets/img/bg-novios-der.jpg);
+}
+
+.imageBg {
+    width: 171px;
+    border-radius: 150px;
+}
+
+.pNovios {
+    margin: 0px 90px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--secundary-font);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.names {
+    font-family: var(--secundary-font);
+    font-size: 23px;
+}
+
+/****************** TOGETHER ******************/
+
+.togetherContainer {
+    margin-bottom: 90px;
+}
+
+/****************** DETAILS ******************/
+
+.detailsConteiner {
+    display: flex;
+}
+
+.detailLeft {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 70px 50px 10px 70px;
+    gap: 30px;
+}
+
+.titleDetail {
+    color: var(--gray-color);
+    font-family: var(--secundary-font);
+    font-size: 40px;
+}
+
+.parrafo4 {
+    line-height: 30px;
+    font-family: var(--secundary-font);
+    color: var(--text-color);
+}
+
+.items {
+    width: 80%;
+}
+
+.pAcordion{
+    font-family: var(--secundary-font);
+}
+
+.maps {
+    height: 650px;
+}
+
+/****************** SAVE THE DAY ******************/
+
+.SaveTheDay {
+    width: 100%;
+    height: 350px;
+    background-color: var(--primary_color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.SaveTheDay > h2 {
+    font-family: var(--secundary-font);
+    font-weight: 300;
+    color: #fff;
+}
+
+.SaveTheDay > h1 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+}
+
