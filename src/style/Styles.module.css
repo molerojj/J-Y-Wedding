@@ -55,7 +55,7 @@
     background-color: var(--primary_color);
 }
 
-.Navbar > ul {
+.navUl {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -65,19 +65,19 @@
 .menu {
     font-family: var(--secundary-font);
     text-decoration: none;
-    color: white;
+    color: rgb(229, 229, 229);
     font-size: 20px;
+    transition: 0.3s;
 }
 
 .menu:focus, .menu:hover, .menu:active  {
-    color: var(--gray-color);
+    color: #fff;
 }
 
 
 /****************** INVITE ******************/
 
 .invite {
-    margin-top: 90px;
     margin: 90px 100px 0px;
     text-align: center;
 }
@@ -86,6 +86,7 @@
     font-size: 32px;
     font-family: var(--secundary-font);
     font-weight: 400;
+    line-height: 46px;
 }
 
 .resalt {
@@ -115,6 +116,7 @@
 
 .fotoBoda1 {
     width: 100%;
+    max-width: 100%;
     height: 653px;
 }
 
@@ -178,7 +180,7 @@
 }
 
 .event {
-    width: 325;
+    width: 325px;
     height: 225px;
 }
 
@@ -238,7 +240,7 @@
 
 /****************** VENUE ******************/
 
-.venueContainer{
+.venueContainer {
     margin-top: 90px;
     display: flex;
     height: 800px;
@@ -450,3 +452,189 @@
     color: #fff;
 }
 
+
+/**************** MEDIA QUERYS *******************/
+
+@media screen and (max-width: 700px) {
+	.header {
+		display: none;
+	}
+    .invite {
+        margin: 90px 50px 0px;
+    }
+    .parrafo {
+        margin: 0 20px;
+    }
+    .fotoBoda1 {
+        height: auto;
+    }
+    .timingCenter {
+        display: none;
+    }
+    .timingEvent {
+        margin: 0;
+    }
+    .triangle, .triangle2 {
+        display: none;
+    }
+    .event {
+        width: 200px;
+        height: 200px;
+    }
+    .event > img {
+        max-width: 100%;
+        height: auto;
+    }
+    .timingEvent {
+        gap: 30px;
+    }
+    .timer > p {
+        font-size: 18px;
+    }
+    .timer {
+        text-align: center;
+        height: 60px;
+    }
+    .venueContainer {
+        flex-direction: column;
+    }
+    .venueContainer > div {
+        width: 100%;
+        padding: 0;
+    }
+    .venueRigth > img {
+        display: none;
+    }
+    .top {
+        margin: 90px 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card > img {
+        display: none;
+    }
+    .noviosContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .noviosContainer > div {
+        width: 100%;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+    .pNovios {
+        margin: 0px 20px;
+    }
+    .togetherContainer {
+        margin-top: 390px;
+    }
+    .detailsConteiner {
+        flex-direction: column;
+    }
+    .detailLeft {
+        width: 100%;
+        padding: 40px 50px;
+        align-items: center;
+    }
+    .items {
+        width: 100%;
+    }
+    .SaveTheDay > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+	.header {
+		display: none;
+	}
+    .invite {
+        margin: 90px 50px 0px;
+    }
+    .parrafo {
+        margin: 0 20px;
+    }
+    .fotoBoda1 {
+        height: auto;
+    }
+    .timingCenter {
+        display: none;
+    }
+    .timingEvent {
+        margin: 0;
+    }
+    .triangle, .triangle2 {
+        display: none;
+    }
+    .event {
+        width: 200px;
+        height: 200px;
+    }
+    .event > img {
+        max-width: 100%;
+        height: auto;
+    }
+    .timingEvent {
+        gap: 30px;
+    }
+    .timer > p {
+        font-size: 18px;
+    }
+    .timer {
+        text-align: center;
+        height: 60px;
+    }
+    .venueContainer {
+        flex-direction: column;
+    }
+    .venueContainer > div {
+        width: 100%;
+        padding: 70px 40px ;
+    }
+    .venueRigth > img {
+        display: none;
+    }
+    .top {
+        margin: 90px 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card > img {
+        display: none;
+    }
+    .noviosContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .noviosContainer > div {
+        width: 100%;
+        gap: 10px;
+        padding: 80px 0px;
+    }
+    .pNovios {
+        margin: 0px 20px;
+    }
+    .togetherContainer {
+        margin-top: 390px;
+    }
+    .detailsConteiner {
+        flex-direction: column;
+    }
+    .detailLeft {
+        width: 100%;
+        padding: 40px 50px;
+        align-items: center;
+    }
+    .items {
+        width: 100%;
+    }
+    .SaveTheDay > h1 {
+        font-size: 40px;
+    }
+}
